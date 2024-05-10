@@ -1,8 +1,9 @@
 ---
-const platform = "github";
-const username = "rmevans1";
+import Social from './Social.astro';
 ---
 
 <footer>
-  <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+  <Social platform="instagram" username="rmevans1" />
+  <Social platform="github" username="rmevans1" />
+  <Social platform="facebook" username="rmevans1" />
 </footer>
