@@ -33,7 +33,7 @@ html {
     margin-bottom: 10px;
     background-color: #ff9776;
   }
-  
+
   .nav-links {
     width:100%;
     top: 5rem;
@@ -74,6 +74,10 @@ html {
   .nav-links a {
     display: inline-block;
     padding: 15px 20px;
+  }
+
+  .hamburger {
+    display: none;
   }
 
 }
